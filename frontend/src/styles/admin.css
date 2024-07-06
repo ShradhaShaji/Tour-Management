@@ -1,0 +1,17 @@
+  .custom-button {
+  background-color:  #ff7e01;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0.25rem;
+  cursor: pointer;
+  border-radius: 4px;
+  }
+
+  .custom-button:hover {
+  background-color: darken( #ff7e01, 10%);
+  }

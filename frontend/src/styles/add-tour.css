@@ -1,0 +1,53 @@
+/* add-tour.css */
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 1rem;
+    color: var(--primary-color);
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="number"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .form-group input[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .form-group input[type="submit"]:hover {
+    opacity: 0.8;
+  }
+  

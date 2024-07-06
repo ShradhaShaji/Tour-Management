@@ -1,0 +1,58 @@
+/* view-review.css */
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .reviews {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .review {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review p {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+  }
+  
+  .review p:first-child {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+  }
+
+  /* view-review.css */
+
+/* Styling for the delete button */
+    .review button {
+    background-color: var(--primary-color); /* Use primary color for background */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add curved edges */
+    padding: 0.5rem 1rem; /* Padding */
+    cursor: pointer; /* Add pointer cursor on hover */
+    }
+
+    .review button:hover {
+    opacity: 0.8; /* Reduce opacity on hover for visual feedback */
+    }

@@ -1,0 +1,31 @@
+.user__item {
+    display: flex;
+    column-gap: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgb(229,231,235);
+    border-radius: 0.5rem;
+    padding: 2rem;
+  }
+  
+  .user__item h5 {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .user__item p {
+    font-size: 0.9rem;
+    color: #000000;
+  }
+  
+  .user__list {
+    margin-top: 2.5rem;
+  }
+  
+  .user__list-title {
+    color: var(--primary-color); /* Make sure to define --primary-color in your global CSS */
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
